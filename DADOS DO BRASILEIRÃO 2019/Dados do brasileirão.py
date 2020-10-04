@@ -4,9 +4,9 @@ times = ("Flamengo","Santos","Palmeiras","Gremio",
              "Conrithians","Fortaleza","Goias","Bahia","Vasco",
              "Atletico Mineiro","Fluminense","Botafogo","Ceará",
              "Cruzeiro","CSA","Chapecoense","Avaí")
-print("="*50)
+print("=" * 50)
 print("{:^50}".format("DADOS DO BRASILEIRÃO 2019"))
-print("="*50)
+print("=" * 50)
 opcao = 0
 while opcao != 8:
     sleep(3)
@@ -51,9 +51,9 @@ Digite: '''))
             print("O {} não participou do Brasileirão 2019".format(time))
     elif opcao == 7:
         cont = 0
-        print("="*50)
+        print("=" * 50)
         print("{:^50}".format("TABELA DO BRASILEIRÃO 2019"))
-        print("="*50)
+        print("=" * 50)
         for tabela in times:
             print(f"{cont + 1}º {tabela}")
             cont += 1
