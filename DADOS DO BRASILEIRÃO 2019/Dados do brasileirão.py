@@ -21,7 +21,7 @@ while opcao != 8:
 Digite: '''))
     print("="*50)
     if opcao == 1:
-        print("O campeão foi o {}".format(times[0]))
+        print(f"O campeão foi o {times[0]}")
     elif opcao == 2:
         print(f"Classificados para Libertadores 2020: {times[:6]}")
     elif opcao == 3:
